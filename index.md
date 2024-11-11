@@ -15,11 +15,17 @@
 
 Leeds Institute for Fluid Dynamics (LIFD) has teamed up with the Centre for Environmental Modelling and Computation (CEMAC) team to create Jupyter notebook tutorials on the following topics.
 
-[1][PINNS](#Physics-Informed-Neural-Networks)
-[2][Image Seg](#Image-Segmentation)
-[3][AE](#Auto-Encoders)
-[4][Data driven](#Data-driven-models)
-[5][GP](#Gaussian-Processes)
+1. [PINNS](#Physics-Informed-Neural-Networks)
+2. [Image Seg](#Image-Segmentation)
+3. [AE](#Auto-Encoders)
+4. [Data driven](#Data-driven-models)
+5. [GP](#Gaussian-Processes)
+
+These notebooks are accompanied by taught lectures, however they should also function as standalone tutorials.
+
+## How to Run
+
+These notebooks can run with the resources provided and the Anaconda environment setup. If you are familiar with Anaconda, Jupyter notebooks and GitHub then simply clone this repository and run it within your Jupyter notebook setup. Otherwise, please read the [how to run](howtorun.md) guide. These are designed to run on Leeds linux GPU work stations although can work colab or other GPU enabled platforms, where run times on a single GPU are deemed unacceptable links to pretrained models are provided.
 
 # Physics-Informed Neural Networks
 
