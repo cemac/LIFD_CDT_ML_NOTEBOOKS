@@ -15,15 +15,15 @@
 
 Leeds Institute for Fluid Dynamics (LIFD) has teamed up with the Centre for Environmental Modelling and Computation (CEMAC) team to create Jupyter notebook tutorials on the following topics.
 
-[1][PINNS]()
-[2][Image Seg]()
-[3][AE]()
-[4][Data driven]()
-[5][GP]()
+[1][PINNS](#Physics-Informed-Neural-Networks)
+[2][Image Seg](#Image-Segmentation)
+[3][AE](#Auto-Encoders)
+[4][Data driven](#Data-driven-models)
+[5][GP](#Gaussian-Processes)
 
 # Physics-Informed Neural Networks
 
-### [1D Heat Equation and Navier Stokes Equation](https://github.com/cemac/LIFD_Physics_Informed_Neural_Networks)
+### [1D Heat Equation and Navier Stokes Equation](https://github.com/cemac/LIFD_Torch_PINNS)
 
 Recent developments in machine learning have gone hand in hand with a large growth in available data and computational resources. However, often when analysing complex physical systems, the cost of data acquisition can be prohibitively large. In this small data regime, the usual machine learning techniques lack robustness and do not guarantee convergence.
 
@@ -40,9 +40,18 @@ In the Navier Stokes example notebook, sparse velocity data points (blue dots) a
 These examples are based on work from the following two papers:
 * M. Raissi, P. Peridakis, G. Karniadakis, Physics Informed Deep Learning (Part II): Data-driven Discovery of Nonlinear Partial Differential Equations, 2017
 * M. Raissi, A. Yazdani, G. Karniadakis, Hidden Fluid Mechanics: A Navier-Stokes Informed Deep Learning Framework for Assimilating Flow Visualization Data, 2018
+
+# Image Segmentation
+
+### [Image Segmentation](https://github.com/cemac/LIFD_ImageSegmentation)
+
+to be filled
+  
 # AutoEncoders
 
-[AutoEncoders](https://github.com/cemac/LIFD_AutoEncoders)
+[AutoEncoders](https://github.com/cemac/LIFD_TorchAutoEncoders)
+
+*to be filled*
 
 AutoEncoders are unsupervised learning technique that performs data encoding and decoding using feed forward neural networks made of two components:
 
@@ -52,10 +61,14 @@ AutoEncoders are unsupervised learning technique that performs data encoding and
 
 References:
 
+# Data Driven Models
 
-## Contributions
+*coming soon*
 
-We hope that this resource can be built upon to provide a wealth of training material for Earth-science machine-learning topics at Leeds.
+# Gauassian Processes
+
+*comming soon*
+
 
 # Licence information #
 
