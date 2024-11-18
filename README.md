@@ -16,9 +16,9 @@
 
 Leeds Institute for Fluid Dynamics (LIFD) has teamed up with the Centre for Environmental Modelling and Computation (CEMAC) team to create Jupyter notebook teaching material for the LIFD CDT.
 
-1. [Physics_Informed_Neural_Networks](https://github.com/cemac/LIFD_Physics_Informed_Neural_Networks)
-2. [ImageSegmentation]()
-3. [AutoEncoders]()
+1. [Physics_Informed_Neural_Networks](https://github.com/cemac/https://github.com/cemac/LIFD_Torch_PINNS)
+2. [ImageSegmentation](https://github.com/cemac/LIFD_ImageSegmentation)
+3. [AutoEncoders](https://github.com/cemac/LIFD_TorchAutoEncoders)
 
 
 **PLEASE NOTE YOU MUST CLONE RECURSIVELY (SEE BELOW)**
