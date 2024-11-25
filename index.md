@@ -51,7 +51,16 @@ These examples are based on work from the following two papers:
 
 ### [Image Segmentation](https://github.com/cemac/LIFD_ImageSegmentation)
 
-to be filled
+Image segmentation models are designed to tackle the problem of partitioning an image into meaningful segments or regions, each corresponding to different objects or parts of objects within the image. This process is crucial in various applications such as medical imaging, where it helps in identifying and isolating different anatomical structures (e.g. organs or tumours), or in autonomous driving, where it can aid in recognising and distinguishing between pedestrians, vehicles, and road signs. More recently, segmentation models are being applied to weather and climate forecasting applications, where their ability to identify structures in image data makes them ideally suited.
+
+This Jupyter notebook demonstrates how artificial neural networks (ANNs) can be applied to image segmentation problems. We present a simple application to self-driving cars, where we train a U-Net segmentation model to identify important features in dashcam footage, as well as a more complicated example, based on the work of Coney et al. (2023), identifying and characterising trapped lee waves over the UK.
+
+
+
+References:
+
+* Ronneberger, O., Fischer, P., Brox, T. (2015). U-Net: Convolutional Networks for Biomedical Image Segmentation. In: Navab, N., Hornegger, J., Wells, W., Frangi, A. (eds) Medical Image Computing and Computer-Assisted Intervention – MICCAI 2015. MICCAI 2015. Lecture Notes in Computer Science(), vol 9351. Springer, Cham. [https://doi.org/10.1007/978-3-319-24574-4_28](https://doi.org/10.1007/978-3-319-24574-4_28)
+*  Coney, J., Denby, L., Ross, A.N., Wang, H., Vosper, S., van Niekerk, A., et al. (2024) Identifying and characterising trapped lee waves using deep learning techniques. Quarterly Journal of the Royal Meteorological Society, 150(758), 213–231. Available from: [https://doi.org/10.1002/qj.4592](https://doi.org/10.1002/qj.4592)
   
 # AutoEncoders
 
