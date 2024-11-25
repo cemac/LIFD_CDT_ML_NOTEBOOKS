@@ -55,7 +55,7 @@ Image segmentation models are designed to tackle the problem of partitioning an 
 
 This Jupyter notebook demonstrates how artificial neural networks (ANNs) can be applied to image segmentation problems. We present a simple application to self-driving cars, where we train a U-Net segmentation model to identify important features in dashcam footage, as well as a more complicated example, based on the work of Coney et al. (2023), identifying and characterising trapped lee waves over the UK.
 
-
+<img src="assets/qj4592-fig-0008-m.jpg" width="800">
 
 References:
 
