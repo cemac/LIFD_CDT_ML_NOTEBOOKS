@@ -49,7 +49,7 @@ These examples are based on work from the following two papers:
 
 # Image Segmentation
 
-### [Image Segmentation](https://github.com/cemac/LIFD_ImageSegmentation)
+### [Identifying and Characterising Trapped Lee Waves](https://github.com/cemac/LIFD_ImageSegmentation)
 
 Image segmentation models are designed to tackle the problem of partitioning an image into meaningful segments or regions, each corresponding to different objects or parts of objects within the image. This process is crucial in various applications such as medical imaging, where it helps in identifying and isolating different anatomical structures (e.g. organs or tumours), or in autonomous driving, where it can aid in recognising and distinguishing between pedestrians, vehicles, and road signs. More recently, segmentation models are being applied to weather and climate forecasting applications, where their ability to identify structures in image data makes them ideally suited.
 
