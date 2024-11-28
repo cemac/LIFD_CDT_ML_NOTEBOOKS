@@ -8,3 +8,4 @@
 [submodule "LIFD_Torch_PINNS"]
 	path = LIFD_Torch_PINNS
 	url = git@github.com:cemac/LIFD_Torch_PINNS.git
+	branch = main
