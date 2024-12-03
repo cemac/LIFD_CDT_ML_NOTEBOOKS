@@ -14,8 +14,8 @@ These tutorials are written as [Jupyter Notebooks](https://jupyter-notebook.read
 1. ssh to the university machines either via remote-access machine, on the wired network or via vpn
    
     `ssh -o PreferredAuthentications=password -o PubkeyAuthentication=no  -X uol-pc-055688`
-3. Load python environment `module add condaenv/unet-2024-10-07`
-4. Fist time only, all subsequent times proceed to step 4
+2. Load python environment `module add condaenv/unet-2024-10-07`
+3. Fist time only, all subsequent times proceed to step 4
     generate a default config file and set a password
     `jupyter notebook --generate-config`
     `jupyter notebook password`
@@ -24,15 +24,15 @@ These tutorials are written as [Jupyter Notebooks](https://jupyter-notebook.read
     make the following edits:
 
 ```
-c.NotebookApp.allow_origin = '*'
-c.NotebookApp.allow_password_change = False
-c.NotebookApp.allow_remote_access = True
-c.NotebookApp.open_browser = False
-c.NotebookApp.ip = '0.0.0.0'
-c.NotebookApp.port = 5566
+c.ServerApp.allow_origin = '*'
+c.ServerApp.allow_remote_access = True
+c.ServerApp.local_hostnames = ['0.0.0.0']
+# c.ServerApp.open_browser = False #optional
+c.ServerApp.port = 55555 # chose a different number!
 ```
 
-4. Run `jupyter-notebook`
+4. git clone the repo you require
+5. Run `jupyter-notebook`
    
     you should see a message that looks something like this:
 
@@ -42,7 +42,7 @@ c.NotebookApp.port = 5566
   * generic    `ssh -N -f -L localhost:<localportno>:localhost:<remoteportno> user@host`
   * following this example:
      `ssh -N -f -L localhost:5000:localhost:5566 user@uol-pc-055688`
-6. Access from your local browser `http://localhost:5000/` enter your password
+7. Access from your local browser `http://localhost:5000/` enter your password
 
 **Tip** only one person can use each port number on each machine replace 5566 with another random 4 digit number 
 
