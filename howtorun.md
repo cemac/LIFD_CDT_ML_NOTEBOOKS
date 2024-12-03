@@ -12,9 +12,10 @@ These tutorials are written as [Jupyter Notebooks](https://jupyter-notebook.read
 ## Using university machines remotely
 
 1. ssh to the university machines either via remote-access machine, on the wired network or via vpn
+   
     `ssh -o PreferredAuthentications=password -o PubkeyAuthentication=no  -X uol-pc-055688`
-2. Load python environment `module add condaenv/unet-2024-10-07`
-3. Fist time only, all subsequent times proceed to step 4
+3. Load python environment `module add condaenv/unet-2024-10-07`
+4. Fist time only, all subsequent times proceed to step 4
     generate a default config file and set a password
     `jupyter notebook --generate-config`
     `jupyter notebook password`
