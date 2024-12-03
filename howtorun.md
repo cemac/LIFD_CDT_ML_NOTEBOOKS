@@ -22,7 +22,8 @@ These tutorials are written as [Jupyter Notebooks](https://jupyter-notebook.read
     edit config file
     `gedit .jupyter/jupyter_notebook_config.py`
     make the following edits:
-    ```
+
+```
 c.NotebookApp.allow_origin = '*'
 c.NotebookApp.allow_password_change = False
 c.NotebookApp.allow_remote_access = True
@@ -30,10 +31,14 @@ c.NotebookApp.open_browser = False
 c.NotebookApp.ip = '0.0.0.0'
 c.NotebookApp.port = 5566
 ```
+
 4. Run `jupyter-notebook`
+   
     you should see a message that looks something like this:
+
    Take Note of port number e.g. 5566
-5. Now on your machine (you must be on vpn or wired university network, or have configured you ssh to work without)
+   
+6. Now on your machine (you must be on vpn or wired university network, or have configured you ssh to work without)
   * generic    `ssh -N -f -L localhost:<localportno>:localhost:<remoteportno> user@host`
   * following this example:
      `ssh -N -f -L localhost:5000:localhost:5566 user@uol-pc-055688`
