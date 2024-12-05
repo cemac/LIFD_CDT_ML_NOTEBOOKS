@@ -6,26 +6,26 @@
 ![cemac logo](https://raw.githubusercontent.com/cemac/cemac_generic/master/Images/cemac.png)
 
 
- [![GitHub release](https://img.shields.io/github/release/cemac/LIFD_ENV_ML_NOTEBOOKS.svg)](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/releases) [![GitHub top language](https://img.shields.io/github/languages/top/cemac/LIFD_ENV_ML_NOTEBOOKS.svg)](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS) [![GitHub issues](https://img.shields.io/github/issues/cemac/LIFD_ENV_ML_NOTEBOOKS.svg)](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/issues) [![GitHub last commit](https://img.shields.io/github/last-commit/cemac/LIFD_ENV_ML_NOTEBOOKS.svg)](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/commits/master) [![GitHub All Releases](https://img.shields.io/github/downloads/cemac/LIFD_ENV_ML_NOTEBOOKS/total.svg)](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/releases) ![GitHub](https://img.shields.io/github/license/cemac/LIFD_ENV_ML_NOTEBOOKS.svg)[![DOI](https://zenodo.org/badge/366734586.svg)](https://zenodo.org/badge/latestdoi/366734586)
+ [![GitHub release](https://img.shields.io/github/release/cemac/LIFD_ENV_ML_NOTEBOOKS.svg)](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/releases) [![GitHub top language](https://img.shields.io/github/languages/top/cemac/LIFD_ENV_ML_NOTEBOOKS.svg)](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS) [![GitHub issues](https://img.shields.io/github/issues/cemac/LIFD_ENV_ML_NOTEBOOKS.svg)](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/issues) [![GitHub last commit](https://img.shields.io/github/last-commit/cemac/LIFD_ENV_ML_NOTEBOOKS.svg)](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/commits/master) [![GitHub All Releases](https://img.shields.io/github/downloads/cemac/LIFD_ENV_ML_NOTEBOOKS/total.svg)](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/releases) ![GitHub](https://img.shields.io/github/license/cemac/LIFD_ENV_ML_NOTEBOOKS.svg) [![DOI](https://zenodo.org/badge/366734586.svg)](https://zenodo.org/badge/latestdoi/366734586)
 
 
 
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/FluidsLeeds.svg?style=social&label=Follow)](https://twitter.com/FluidsLeeds)
 
-Leeds Institute for Fluid Dynamics (LIFD) has teamed up with the Centre for Environmental Modelling and Computation (CEMAC) team to create Jupyter notebook tutorials on the following topics.
+The Leeds Institute for Fluid Dynamics (LIFD) has teamed up with the Centre for Environmental Modelling and Computation (CEMAC) to create Jupyter notebook tutorials on the following topics.
 
-1. [PINNS](#Physics-Informed-Neural-Networks)
-2. [Image Seg](#Image-Segmentation)
-3. [AE](#Auto-Encoders)
-4. [Data driven](#Data-driven-models)
-5. [GP](#Gaussian-Processes)
+1. [Physics Informed Neural Networks](#Physics-Informed-Neural-Networks)
+2. [Image Segmentation](#Image-Segmentation)
+3. [Autoencoders](#Auto-Encoders)
+4. [Design Optimisation with Metamodels](#Design-Optimisation-with-Metamodels)
+5. [Gaussian Processes](#Gaussian-Processes)
 
 These notebooks are accompanied by taught lectures, however they should also function as standalone tutorials.
 
 ## How to Run
 
-These notebooks can run with the resources provided and the Anaconda environment setup. If you are familiar with Anaconda, Jupyter notebooks and GitHub then simply clone this repository and run it within your Jupyter notebook setup. Otherwise, please read the [how to run](howtorun.md) guide. These are designed to run on Leeds linux GPU work stations although can work colab or other GPU enabled platforms, where run times on a single GPU are deemed unacceptable links to pretrained models are provided.
+These notebooks can run with the resources provided and the Anaconda environment set up. If you are familiar with Anaconda, Jupyter notebooks and GitHub then simply clone this repository and run it within your Jupyter notebook setup. Otherwise, please read the [how to run](howtorun.md) guide. These notebooks are designed to run on Leeds Linux GPU workstations, although they also work on colab or other GPU enabled platforms. Where run times on a single GPU are deemed unacceptable, links to pre-trained models are provided.
 
 # Physics-Informed Neural Networks
 
@@ -63,13 +63,13 @@ References:
 * Ronneberger, O., Fischer, P., Brox, T. (2015). U-Net: Convolutional Networks for Biomedical Image Segmentation. In: Navab, N., Hornegger, J., Wells, W., Frangi, A. (eds) Medical Image Computing and Computer-Assisted Intervention – MICCAI 2015. MICCAI 2015. Lecture Notes in Computer Science(), vol 9351. Springer, Cham. [https://doi.org/10.1007/978-3-319-24574-4_28](https://doi.org/10.1007/978-3-319-24574-4_28)
 *  Coney, J., Denby, L., Ross, A.N., Wang, H., Vosper, S., van Niekerk, A., et al. (2024) Identifying and characterising trapped lee waves using deep learning techniques. Quarterly Journal of the Royal Meteorological Society, 150(758), 213–231. Available from: [https://doi.org/10.1002/qj.4592](https://doi.org/10.1002/qj.4592)
   
-# AutoEncoders
+# Autoencoders
 
-[AutoEncoders](https://github.com/cemac/LIFD_TorchAutoEncoders)
+[Autoencoders](https://github.com/cemac/LIFD_TorchAutoEncoders)
 
 *to be filled*
 
-AutoEncoders are unsupervised learning technique that performs data encoding and decoding using feed forward neural networks made of two components:
+Autoencoders are unsupervised learning technique that performs data encoding and decoding using feed forward neural networks made of two components:
 
 * **Encoder** translates input data into lower dimensional space. (lower dimensional encoding is referred to as the latent space representation) 	 
 
@@ -77,11 +77,21 @@ AutoEncoders are unsupervised learning technique that performs data encoding and
 
 References:
 
-# Data Driven Models
+# Design Optimisation with Metamodels
 
-*coming soon*
+Design optimisation in the context of fluid mechanics often involves optimising parameters within PDEs to achieve desired fluid behaviour. This process requires adjusting variables such as boundary conditions, initial conditions, and material properties to minimise or maximise specific performance criteria, like minimising drag or maximising flow efficiency.
 
-# Gauassian Processes
+Metamodels, also known as surrogate models, are simplified representations of complex systems used to approximate the behaviour of more detailed simulations. In design optimisation, metamodels can significantly reduce computational costs by providing quick evaluations of design alternatives without running full-scale simulations.
+
+In this notebook, we solve a design optimisation problem in a PDE-constrained framework using metamodels. The motivation of this problem is the optimal design of coronary artery bypass graft.
+
+![](assets/bypass.png)
+
+References:
+
+* Lassila, T., Manzoni, A., Quarteroni, A., & Rozza, G. (2013). Boundary control and shape optimization for the robust design of bypass anastomoses under uncertainty. ESAIM: Mathematical Modelling and Numerical Analysis, 47(4), 1107-1131.
+
+# Gaussian Processes
 
 *comming soon*
 
