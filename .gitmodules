@@ -9,3 +9,6 @@
 	path = LIFD_Torch_PINNS
 	url = git@github.com:cemac/LIFD_Torch_PINNS.git
 	branch = main
+[submodule "LIFD_DesignOptimisation"]
+	path = LIFD_DesignOptimisation
+	url = git@github.com:cemac/LIFD_DesignOptimisation.git

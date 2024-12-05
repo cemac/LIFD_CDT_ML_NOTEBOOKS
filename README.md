@@ -14,41 +14,42 @@
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/FluidsLeeds.svg?style=social&label=Follow)](https://twitter.com/FluidsLeeds)
 
-Leeds Institute for Fluid Dynamics (LIFD) has teamed up with the Centre for Environmental Modelling and Computation (CEMAC) team to create Jupyter notebook teaching material for the LIFD CDT.
+The Leeds Institute for Fluid Dynamics (LIFD) has teamed up with the Centre for Environmental Modelling and Computation (CEMAC) to create Jupyter notebook teaching materials for the LIFD CDT.
 
-1. [Physics_Informed_Neural_Networks](https://github.com/cemac/https://github.com/cemac/LIFD_Torch_PINNS)
-2. [ImageSegmentation](https://github.com/cemac/LIFD_ImageSegmentation)
-3. [AutoEncoders](https://github.com/cemac/LIFD_TorchAutoEncoders)
+1. [Physics Informed Neural Networks](https://github.com/cemac/https://github.com/cemac/LIFD_Torch_PINNS)
+2. [Image Segmentation](https://github.com/cemac/LIFD_ImageSegmentation)
+3. [Autoencoders](https://github.com/cemac/LIFD_TorchAutoEncoders)
+4. [Design Optimisation with Metamodels](https://github.com/cemac/LIFD_DesignOptimisation)
 
 
 **PLEASE NOTE YOU MUST CLONE RECURSIVELY (SEE BELOW)**
 
-These notebooks are design to run alongside a teaching module however each topic and will include links to further reading where necessary. Each notebook will take about two hours to run through and should run out of the box on home installations of Jupyter notebooks although they have been primarily designed to work on Leeds base GPU work stations. These notebooks are designed with automatic checking of Python environment files to remain easy to set up into the future.
+These notebooks are designed to run alongside a teaching module, however the notebook for each topic will include links to further reading where necessary. Each notebook will take about two hours to run through and should run out-of-the-box on home installations of Jupyter notebooks, although they have been primarily designed to work on Leeds-based GPU workstations. These notebooks are designed with automatic checking of Python environment files to remain easy to set up into the future.
 
-As this resource grows, in order to not make the repository unwieldy this repository is made up of submodules that can be cloned individually.
+As this resource grows, in order not to make the repository unwieldy, this repository is made up of submodules that can be cloned individually.
 
 ## How do I get started?
 
 Some tutorials are so lightweight you can run them on [binder](https://mybinder.readthedocs.io/en/latest/#what-is-binder). The others we recommend running on your local machine. To get started, either clone this repository (**LARGE SIZE**) or select a tutorial to clone and run each tutorial separately.
 
-### Colab enabled tutorials
+### Colab-enabled tutorials
 
 
 
 ### Cloning the whole repository
 
-``bash
+```bash
 git clone --recursive git@github.com:cemac/LIFD_CDT_ML_NOTEBOOKS.git
-``
+```
 
-then follow the individual README.md instructions.
+then follow the individual README.md instructions for each notebook.
 
 ### Cloning individual tutorials
 
 
 ## How to Run
 
-These notebooks can run with the resources provided and the Anaconda environment setup. If you are familiar with Anaconda, Jupyter notebooks and GitHub then simply clone this repository and run it within your Jupyter notebook setup. Otherwise, please read the [how to run](howtorun.md) guide. Individual notebooks have bespoke instructions.
+These notebooks can run with the resources provided and the Anaconda environment set up. If you are familiar with Anaconda, Jupyter notebooks and GitHub then simply clone this repository and run it within your Jupyter notebook setup. Otherwise, please read the [how to run](howtorun.md) guide. Individual notebooks have bespoke instructions.
 
 
 ```bash
@@ -96,4 +97,4 @@ We hope that this resource can be built upon to provide a wealth of training mat
 
 ## Acknowledgements
 
-*Leeds Institute of Fluid Dynamics*, *CEMAC*,*Peter Jimack*,  *Phil Livermore*, *Jonathan Coney*,*Donald Cummins*, *Helen Burns*, *Andrew Ross*, *Toni Lassi*, ,*Calum Skene*, Arash Rabani*
+*Leeds Institute of Fluid Dynamics*, *CEMAC*, *Peter Jimack*, *Phil Livermore*, *Jonathan Coney*, *Donald Cummins*, *Helen Burns*, *Andrew Ross*, *Toni Lassila*,*Calum Skene*, *Arash Rabbani*
