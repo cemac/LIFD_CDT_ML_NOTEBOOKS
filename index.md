@@ -65,7 +65,7 @@ References:
   
 # Autoencoders
 
-[Autoencoders](https://github.com/cemac/LIFD_TorchAutoEncoders)
+### [Autoencoders](https://github.com/cemac/LIFD_TorchAutoEncoders)
 
 *to be filled*
 
@@ -78,6 +78,8 @@ Autoencoders are unsupervised learning technique that performs data encoding and
 References:
 
 # Design Optimisation with Metamodels
+
+### [Optimal design of coronary artery bypass graft](https://github.com/cemac/LIFD_DesignOptimisation)
 
 Design optimisation in the context of fluid mechanics often involves optimising parameters within PDEs to achieve desired fluid behaviour. This process requires adjusting variables such as boundary conditions, initial conditions, and material properties to minimise or maximise specific performance criteria, like minimising drag or maximising flow efficiency.
 
