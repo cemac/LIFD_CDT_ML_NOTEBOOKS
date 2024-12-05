@@ -32,10 +32,6 @@ As this resource grows, in order not to make the repository unwieldy, this repos
 
 Some tutorials are so lightweight you can run them on [binder](https://mybinder.readthedocs.io/en/latest/#what-is-binder). The others we recommend running on your local machine. To get started, either clone this repository (**LARGE SIZE**) or select a tutorial to clone and run each tutorial separately.
 
-### Colab-enabled tutorials
-
-
-
 ### Cloning the whole repository
 
 ```bash
@@ -46,16 +42,13 @@ then follow the individual README.md instructions for each notebook.
 
 ### Cloning individual tutorials
 
+Instructions for cloning an individual tutorial can be found in the README.md file on that tutorial's GitHub page.
+
 
 ## How to Run
 
 These notebooks can run with the resources provided and the Anaconda environment set up. If you are familiar with Anaconda, Jupyter notebooks and GitHub then simply clone this repository and run it within your Jupyter notebook setup. Otherwise, please read the [how to run](howtorun.md) guide. Individual notebooks have bespoke instructions.
 
-
-```bash
-git clone --recursive git@github.com:cemac/LIFD_CDT_ML_NOTEBOOKS.git
-cd LIFD_ENV_ML_NOTEBOOKS
-```
 
 ## Requirements
 
@@ -81,7 +74,7 @@ git submodule update --init --recursive
 
 **Hardware**
 
-These notebooks are designed to run on a personal computer. Although please note the techniques demonstrated can be very computationally intensive, so there may be options to skip steps depending on the hardware available, e.g. use pre-trained models.
+These notebooks are designed to run on a personal computer. Note that some of the techniques demonstrated are computationally intensive, so there may be options to skip steps within certain notebooks depending on the hardware available, e.g. use pre-trained models.
 
 **Knowledge**
 
@@ -97,4 +90,4 @@ We hope that this resource can be built upon to provide a wealth of training mat
 
 ## Acknowledgements
 
-*Leeds Institute of Fluid Dynamics*, *CEMAC*, *Peter Jimack*, *Phil Livermore*, *Jonathan Coney*, *Donald Cummins*, *Helen Burns*, *Andrew Ross*, *Toni Lassila*,*Calum Skene*, *Arash Rabbani*
+*Leeds Institute of Fluid Dynamics*, *CEMAC*, *Peter Jimack*, *Phil Livermore*, *Jonathan Coney*, *Donald Cummins*, *Helen Burns*, *Andrew Ross*, *Toni Lassila*, *Calum Skene*, *Arash Rabbani*
