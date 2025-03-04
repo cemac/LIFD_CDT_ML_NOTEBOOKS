@@ -20,6 +20,7 @@ The Leeds Institute for Fluid Dynamics (LIFD) has teamed up with the Centre for 
 2. [Image Segmentation](https://github.com/cemac/LIFD_ImageSegmentation)
 3. [Autoencoders](https://github.com/cemac/LIFD_TorchAutoEncoders)
 4. [Design Optimisation with Metamodels](https://github.com/cemac/LIFD_DesignOptimisation)
+5. [Modal Decomposition](https://github.com/cemac/LIFD_ModalDecomposition)
 
 
 **PLEASE NOTE YOU MUST CLONE RECURSIVELY (SEE BELOW)**
@@ -90,4 +91,4 @@ We hope that this resource can be built upon to provide a wealth of training mat
 
 ## Acknowledgements
 
-*Leeds Institute of Fluid Dynamics*, *CEMAC*, *Peter Jimack*, *Phil Livermore*, *Jonathan Coney*, *Donald Cummins*, *Helen Burns*, *Andrew Ross*, *Toni Lassila*, *Calum Skene*, *Arash Rabbani*
+*Leeds Institute of Fluid Dynamics*, *CEMAC*, *Donald Cummins*, *Helen Burns*, *Peter Jimack*, *Phil Livermore*, *Jonathan Coney*, *Andrew Ross*, *Toni Lassila*, *Calum Skene*, *Arash Rabbani*
