@@ -12,3 +12,6 @@
 [submodule "LIFD_TorchAutoEncoders"]
 	path = LIFD_TorchAutoEncoders
 	url = git@github.com:cemac/LIFD_TorchAutoEncoders.git
+[submodule "LIFD_ModalDecomposition"]
+	path = LIFD_ModalDecomposition
+	url = https://github.com/cemac/LIFD_ModalDecomposition
