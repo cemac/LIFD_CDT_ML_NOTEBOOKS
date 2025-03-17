@@ -6,12 +6,12 @@ These tutorials are written as [Jupyter Notebooks](https://jupyter-notebook.read
 
 1. log in to GPU work stations using university of leeds credentials
 2. load python environment `module add condaenv/unet-2024-10-07`
-3. Download Git repo *should we store this centrally so students don't have to do git logins etc or via wget*
+3. Download Git repo
 4. launch notebook server: `jupyter-notebook`
 
 ## Using university machines remotely
 
-1. ssh to the university machines either via remote-access machine, on the wired network or via vpn
+1. ssh to the university machines either on the wired network or via vpn and proxy jumping via a wired machine e.g. feng-linux **both** with X11 forwarding
    
     `ssh -o PreferredAuthentications=password -o PubkeyAuthentication=no  -X uol-pc-055688`
 2. Load python environment `module add condaenv/unet-2024-10-07`
@@ -71,3 +71,12 @@ jupyter-notebook # launches the notebook server
 ```
 
 For a quicker installation you may wish to use mamba for more information Berkley university has written a nice guide on this at [https://statistics.berkeley.edu/computing/conda](https://statistics.berkeley.edu/computing/conda)
+
+## Troubleshooting
+
+### Can't detect GPU
+Restart machine
+
+### Password needed for notebook and don't know password
+
+`mv ~/.jupyter/jupyter_notebook_config.py ~/.jupyter/jupyter_notebook_config.py_bak`
